@@ -1,0 +1,44 @@
+<?xml version ="1.0" encoding="utf-8"?>
+
+
+<sezione1>
+    <titolo>testo in lingua latina</titolo>
+    <p>
+        <i>Testo a cura di Franco Tavolari</i>
+        Mei qui religionis nam fas devenietur ponderibus.
+        Junctae invenit plausum differt de ipsamet externo is.
+        Mutationum sui negationem exponuntur permittere occasionem nec ita facultates ima. 
+        <b><font color="red">Quanto vi paucos semper multum dividi ea errore.
+        Sub sessione deponant postquam cur quaesita usitatus eae uno.</b>
+        Sorbonae cavendum lor creandam tractare possimus earumdem dem ope nam.</font>
+
+    </p>
+</sezione1>
+
+<!--
+Errore riportato da xmllint:
+doc_not_well_formed_checkxmllint.xml:12: parser error : Opening and ending tag mismatch: font line 11 and b
+        Sub sessione deponant postquam cur quaesita usitatus eae uno.</b>
+                                                                         ^
+doc_not_well_formed_checkxmllint.xml:13: parser error : Opening and ending tag mismatch: b line 11 and font
+    Sorbonae cavendum lor creandam tractare possimus earumdem dem ope nam.</font
+-->
+
+
+<!--
+CODICE CORRETTO
+<sezione1>
+    <titolo>Analisi di un testo in lingua latina</titolo>
+    <p>
+        <i>Testo a cura di Franco Tavolari</i>
+        Mei qui religionis nam fas devenietur ponderibus.
+        Junctae invenit plausum differt de ipsamet externo is.
+        Mutationum sui negationem exponuntur permittere occasionem nec ita facultates ima. 
+        <b><font color="red">Quanto vi paucos semper multum dividi ea errore.
+        Sub sessione deponant postquam cur quaesita usitatus eae uno.</font></b>
+        <font color="red">Sorbonae cavendum lor creandam tractare possimus earumdem dem ope nam.</font>
+
+    </p>
+</sezione1>
+-->
+
