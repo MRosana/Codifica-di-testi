@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: xmlfirst_corretto.xml
+-->
+
+<text>
+
+    <p1>
+        il primo xml con validazione
+    </p1>
+    <p2>
+        Con l'aggiunta di un figlio dentro l'elemento radice e di un elemento fratello di quello appena aggiunto
+    </p2>
+
+</text>
+<!--<text /> questo elemento non può stare al di fuori della root
+
+L'errore che restituisce xmllint è il seguente:
+    xmlfirst.xml:6: parser error : Extra content at the end of the document
+<text />
+
+-->
+
