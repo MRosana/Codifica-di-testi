@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--   
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: html_inside_CDATA.xml
+-->
+
+<root>
+    <content>
+            <htmlCode>
+                <![CDATA[
+                    <body>
+                        <div align="left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div align="right">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div align="center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div align="justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </body>
+                ]]>
+            </htmlCode>
+    </content>
+</root>
