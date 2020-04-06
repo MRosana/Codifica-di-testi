@@ -1,0 +1,18 @@
+<!--   
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: dichiarazione_interna.xml
+-->
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE radice [ 
+    <!ELEMENT radice (analisi) >
+    <!ELEMENT analisi (#PCDATA) >
+]>
+
+<radice>
+    <analisi>
+        dati testuali
+    </analisi>
+</radice>
