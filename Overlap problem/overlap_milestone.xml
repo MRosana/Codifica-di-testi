@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: overlap_milestone.xml
+    Data: 28/04/2020
+-->
+
+<text>
+    <titolo>La fissione nucleare</titolo>
+        <capitolo n = "1" />
+            <p>In fisica la fissione o scissione nucleare è un processo fisico-nucleare in cui il nucleo atomico di un elemento chimico pesante (ad esempio uranio-235 o plutonio-239)
+            decade in frammenti di minori dimensioni, ovvero in nuclei di atomi a numero atomico inferiore, con emissione di una grande quantità di energia e radioattività.
+            Può avvenire spontaneamente in natura oppure essere indotta artificialmente tramite opportuno bombardamento di neutroni.
+            È la reazione nucleare comunemente utilizzata nei reattori nucleari e nei tipi più semplici di arma nucleare,
+            quali le bombe all'uranio (come Little Boy che colpì Hiroshima) o al plutonio (come Fat Man che colpì Nagasaki).
+            Tutte le bombe a fissione nucleare vengono militarmente etichettate come Bombe A.
+        <capitolo n = "2" />
+            La prima fissione nucleare artificiale (cioè antropica) avvenne nel 1932 ad opera di Ernest Walton e John Cockcroft, che,
+            accelerando protoni contro un atomo di litio-7 riuscirono a dividere il suo nucleo in due particelle alfa (cioè due nuclei di elio);
+            il fenomeno era noto come splitting the atom. 
+            Il 22 ottobre 1934 la prima fissione nucleare artificiale di un atomo di Uranio fu realizzata da un gruppo di fisici italiani guidati da Enrico Fermi (i cosiddetti "ragazzi di via Panisperna")
+            mentre bombardavano dell'uranio con neutroni. Il gruppo di fisici italiani però non si accorse di ciò che era avvenuto ma ritenne invece di aver prodotto dei nuovi elementi transuranici.
+            Alla fine del dicembre 1938, esattamente nella notte tra il 17 e il 18, due chimici nucleari tedeschi, 
+            Otto Hahn e il suo giovane assistente Fritz Strassmann, furono i primi a dimostrare sperimentalmente che un nucleo di uranio-235, 
+            qualora assorba un neutrone, può dividersi in due o più frammenti dando luogo così alla fissione del nucleo (fu la chimica Ida Noddack ad ipotizzare per prima la fissione nel 1934, 
+            mentre i fondamenti teorici si hanno grazie a Otto Frisch e a sua zia Lise Meitner). 
+            A questo punto per i chimici e fisici iniziò a prendere forma l'idea che si potesse utilizzare questo processo, 
+            costruendo dei reattori che contenessero la reazione, per produrre energia o degli ordigni nucleari 
+            (la prima bomba atomica esplose il 16 luglio 1945 nel poligono di Alamogordo nel Nuovo Messico).
+            </p>
+</text>
