@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+
+<!--
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: codifica_matematica_e_realtà.xml
+    Data: 05-05-2020
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Estratto del libro "Perchè la realtà è descrivibile matematicamente?" versione digitale</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>M.Rosana</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>05-05-2020</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title>Perchè la realtà è descrivibile matematicamente?</title>
+                    <author>Paolo Vidali</author>
+                    <publisher>Liceo "Quadri"</publisher>
+                    <pubPlace>Serrada di Folgaria</pubPlace>
+                    <date when ="2001-09">6-7 Settembre 2001</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+
+        <body>
+            <pb n="2"/>
+            <div n="2.1" type = "section">
+                <head>Galilei e la tesi realista</head>
+                <p>Perché, ci potremmo chiedere, è così importante descrivere la realtà fisica usando il linguaggio della matematica?
+                A questa domanda <name type="person">Galilei</name> fornisce delle risposte, non sempre degli argomenti.</p>
+                <p>La prima viene da un passo famoso:</p>
+                <p><cit><quote>La filosofia è scritta in questo grandissimo libro che continuamente ci sta aperto innanzi a gli occhi (io dico lo universo),
+                ma non si può intendere se prima non s'impara a intender la lingua, a conoscer i caratteri ne' quali è scritto. Egli è scritto in lingua matematica,
+                e i caratteri son triangoli, cerchi, ed altre figure geometriche, senza i quali mezi è impossibile a intenderne umanamente parola; senza questi è un aggirarsi vanamente per un oscuro laberinto</quote>
+                <bibl>Il Saggiatore, 1623, in Opere, vol. VI, p.295</bibl></cit></p>
+                <p>Utilizzando la grande metafora rinascimentale del libro <name type="person">Galilei</name> sostiene qualcosa di più della leggibilità del mondo e quindi della fiducia in una capacità conoscitiva umana.
+                Egli afferma che il linguaggio matematico è primitivo, originario, omogeneo alla natura. Ma sa altrettanto bene che la capacità umana di produrre matematica non deriva dalla sensibilità,
+                non dipende da un'intuizione metafisica, né discende da una rivelazione divina. E' una competenza umana, la più divina delle competenze umane.</p>
+                <p><name type="person">Simplicio</name>, nella prima giornata del <bibl>Dialogo sopra i due massimi sistemi del mondo (1632)</bibl> muove una fondamentale obiezione:
+                il mondo, specie quello terrestre, è impreciso e <soCalled>“sporco”</soCalled>, il che rende impossibile applicagli la purezza della dimostrazione matematica. <name type="person">Galilei</name> gli risponde
+                <cit><quote>ma dirò bene con Aristotile che nelle cose naturali non si deve sempre ricercare una necessità di dimostrazione matematica</quote><bibl>G. Galilei, Dialogo sopra i due massimi sistemi del mondo, 1632, in op. cit., vol. VII, p. 38</bibl></cit>.
+                Non è nel mondo che si deve ricercare l’esattezza matematica. Siamo allora in presenza di una contraddizione? No. Nel mondo non si devono ricercare <quote>triangoli, cerchi, ed altre figure</quote>,
+                ma per <quote>leggerlo</quote> bisogna conoscere queste figure <cit><quote>il voler trattar le quistioni naturali senza geometria è un tentar di fare quello che è impossibile ad essere fatto</quote><bibl>Ivi, p. 229</bibl></cit></p>
+                <p>Infatti,<cit><quote> quando il filosofo geometra vuol riconoscere in concreto gli effetti dimostrati in astratto, bisogna che <term xml:id="DIFALCHI">difalchi</term><gloss target="#DIFALCHI">cioè tolga</gloss> gli impedimenti della materia; che se ciò saprà fare, 
+                io vi assicuro che le cose si riscontreranno non meno aggiustatamente che i computi aritmetici</quote><bibl>G. Galilei, Dialogo sopra i due massimi sistemi del mondo, 1632, in Opere, vol. VII, p. 234</bibl></cit>.
+                Ecco: la matematica è efficace non perché nel mondo ci siano <quote>triangoli, cerchi, e altre figure</quote>, ma perché <term xml:id="FISICO">il fisico</term><gloss target="#FISICO">il filosofo geometra</gloss> toglie via al particolare che sta osservando tutto quello che lo fa tale e ne considera in astratto la struttura geometrica.</p>
+                <p>Sarà <name type="person">Cartesio</name> che per primo, a partire da questa struttura geometrica, ridisegnerà la stessa ontologia materiale, cioè la <quote><foreign xml:lang="la">res extensa</foreign></quote>. Il problema dell’applicazione della matematica alla realtà viene correttamente risolto solo riformulando un’ontologia adeguata a questa applicazione.
+                Un classico lavoro da filosofo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
