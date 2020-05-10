@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+
+<!--
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: dante_paradiso_tavoni.xml
+    Data: 10-05-2020
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dante e la scoperta del Paradiso terrestre in mezzo all'Oceano, versione digitale</title>
+                <respStmt>
+                    <resp>Conversiote TEI P5 a cura di</resp>
+                    <name>M.Rosana</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Editoriale Le Lettere</publisher>
+                <date when ="2019">2019</date>
+                <pubPlace>Firenze</pubPlace>
+                <availability><p>Abbonamento</p></availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Mirko Tavoni</author>
+                        <title level ="a">Dante e la scoperta del paradiso terrestre</title>
+                    </analytic>
+                    <monogr>
+                        <title level ="j">Studi Danteschi</title>
+                        <imprint>
+                            <date when="2019">2019</date>
+                        </imprint>
+                        <biblScope unit ="vol"><num value="84">LXXXIV</num></biblScope>
+                        <biblScope unit="pages">1</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <pb n="11"/>
+            <lg>
+                <l><ref xml:id="expl1">Da questa parte</ref> caddè giù dal cielo;</l>
+                <l>e <ref xml:id="expl2">la terra che pria di qua si sporse</ref></l>
+                <l>per paura di lui fè del mar velo,</l>
+            <pb n="12"/>
+                <l>e venne a l'emisperio nostro; e forse</l>
+                <l>per fuggir lui lasciò qui loco vòto</l>
+                <l>quella ch'appar di qua, e <term xml:id="expl3">sù ricorse</term>.</l>
+            </lg>
+            <p>Non posso qui entrare nei dettagli esegetici anche controversi di
+            queste due terzine. Dirò solo, scusandomi per essere un po’ apodittico,
+            che la caduta di <persName>Lucifero</persName><emph>«<term target="#expl1">da questa parte</term>»</emph>,
+            cioè <gloss target="#expl1">dalla parte australe
+            del mondo</gloss>, <hi rend="italic">non</hi> produce la cavità infernale, come la maggioranza dei
+            commenti interpreta o interpretava,
+            <note place="foot" n="3">
+                <biblStruct>
+                    <analytic>
+                        <author>C.FORTI</author>
+                        <title level="a">Nascita dell'Inferno o nascita del Purgatorio.Nota sulla caduta del Lucifero dantesco</title>
+                    </analytic>
+                    <monogr>
+                    <title level="j">Rivista di letteratura italiana</title>
+                    <imprint>
+                        <date>1986</date>
+                    </imprint>
+                    <biblScope unit ="vol">4</biblScope>
+                    <biblScope unit="pages" from="241" to="260">241-260</biblScope>
+                    </monogr>
+                </biblStruct>
+            </note>
+            e <hi rend="italic">non</hi> produce l’immane rivolgimento
+            per cui <hi rend="italic">la</hi> terra emersa, che originariamente sarebbe emersa solo
+            nell’emisfero australe, in seguito alla caduta di <persName>Lucifero</persName> si sarebbe spostata
+            tutta nell’emisfero boreale. La relativa <emph>«<term target="expl2">la terra che pria di qua si
+            sporse</term>»</emph> (<gloss target="expl2"><hi rend="italic">si sporse</hi> per ‘si era sporta’, com’è normale in italiano antico</gloss>)
+            non è una relativa appositiva, le due virgole che la delimitano anche in
+            tutte le edizioni più recenti vanno tolte: è una relativa restrittiva.
+            <note place="foot" n="4">
+                <biblStruct>
+                    <analytic>
+                        <author>V.MELE</author>
+                        <title level="a">La reazione della terra alla caduta di Lucifero(Inf.XXXIV 121-126). Qualche appunto di carattere linguistico</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Leggere Dante</title>
+                        <respStmt>
+                            <resp>a c. di</resp>
+                            <persName>L. Battaglia Ricci</persName>
+                        </respStmt>
+                        <imprint>
+                        <pubPlace>Ravenna</pubPlace>
+                        <publisher>Longo</publisher>
+                        <date>2003</date>
+                        </imprint>
+                        <biblScope unit="pages" from="345" to="363">345-363</biblScope>
+                    </monogr>
+                </biblStruct>
+            </note>
+            La terra in questione non è tutta la terra emersa, che ora con gigantesca
+            dislocazione passerebbe da un emisfero all’altro, ma è quella limitata
+            quantità di terra che prima era emersa <hi rend="italic">anche</hi> nell’emisfero australe, e
+            che ora per sfuggire <persName>Lucifero<persName> si abbassa sotto la superficie del mare, e
+            crea un vuoto intorno al suo corpo (la <emph>«<quote>natural burella</quote>»</emph> nella quale in
+            quel momento si trovano <persName>Dante</persName> e </persName>Virgilio</persName>). La materia che rifugge il
+            contatto col corpo di <persName>Lucifero</persName> <emph>“<gloss target="expl3">ricorre su</gloss>”</emph> in superficie e va a costituire
+            la montagna del <name type="place">Purgatorio-Eden</name>.</p>
+            <p>Con ciò <persName>Dante</persName> ha scolpito un nuovo assetto dell’orbe terracqueo,
+            assolutamente originale, fedelmente disegnato in questa doppia mappa
+            di <persName><forename>Edoardo</forename> <surname>Coli</surname></persName> <ptr type="image" target="#fig3"/>.
+             Questo nuovo assetto è uno straordinario
+            concentrato di significati, di significati spazializzati, e cioè:</p>
+            <list type="numered">
+                <item n="1">La caduta di <persName>Lucifero</persName>, che introduce il male nel mondo, provoca
+                fisicamente la formazione del <name type="place">Purgatorio</name>, il luogo della redenzione
+                dell’umanità dal male.</item>
+                <item n="2">L’unità fisica <name type="place">Purgatorio-Paradiso terrestre</name> evidenzia il nesso fra
+                purgazione dai peccati e riconquista della felicità edenica, precedente
+                al peccato originale: il luogo creato da <persName>Dio</persName> per la spe-
+            <pb n="13"/>
+                <figure xml:id="fig3">
+                    <head>Il globo terracqueo secondo l'Alighieri</head>
+                    <bibl>
+                        <author>Coli</author>
+                        <title level = "m">Il Paradiso terrestre dantesco</title>
+                        fig.22
+                    </bibl>
+                </figure>
+                ciale felicità dell’uomo, perduto per il peccato originale provocato
+                da <persName>Lucifero</persName> e compiuto dall’uomo, viene riconquistato
+                dall’uomo salendo la montagna che si è formata per effetto della
+                caduta di <persName>Lucifero</persName>.</item>
+                <item n="3">Introducendo la caduta di <persName>Lucifero</persName> <persName>Dante</persName> arricchisce semioticamente
+                il complesso di significati che si visualizzava nelle mappe
+                <emph>“<quote>T in O</quote>”</emph>: in esse l’atto primario dell’intero dramma era il
+                peccato originale dell’uomo, qui viene inclusa anche la causa
+                ancora a monte del peccato originale, cioè la nascita del diavolo<rs type="person">Lucifero</rs>.</item>
+                <item n="4">Altro incremento semiotico è rappresentato dalla tridimensionalità:
+                il complesso dei significati delle carte <emph>“<quote>T in O</quote>”</emph> si visualizzava
+                su un piano bidimensionale, il piano della superficie della
+                terra emersa; questo complesso di significati si realizza nelle
+                tre dimensioni, a tutto tondo, del globo terracqueo.</item>
+                <item n="5">Che il <name type="place">Purgatorio-Paradiso terrestre</name> sia agli antipodi di <name type="place">Gerusalemme</name>,
+                tanto che i due luoghi condividono dai lati opposti lo
+                stesso orizzonte, evidenzia il nesso fra il peccato originale e il
+                sacrificio di <persName>Cristo</persName> che redime il peccato originale, e il nesso fra
+                la <hi rend="uppercase">R</hi>edenzione operata da <persName>Cristo</persName> e la possibilità di purgazione
+                dai peccati individuale di cui la <hi rend="uppercase">R</hi>edenzione è il presupposto.</item>
+            </list>
+        </body>
+
+        <back>
+
+        </back>
+    </text>
+</TEI>
