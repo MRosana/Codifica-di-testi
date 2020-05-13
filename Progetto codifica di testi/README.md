@@ -1,4 +1,4 @@
-# Codifica-di-testi
+# Progetto codifica di testi
     Gruppo: singolo
     Lettera: LL1.19
     Studente: Matteo Rosana
