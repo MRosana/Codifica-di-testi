@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+
+<!--
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: facsimile.xml
+    Data: 19-05-2020
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <respStmt>
+                    <resp></resp>
+                    <name></name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher></publisher>
+                <date></date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author></author>
+                    <publisher></publisher>
+                    <date></date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface n="1" xml:id="LL1.19_folio_1f">
+            <graphic url="LL1.19_0001.jpg" width="2893px" height="3852px"/>
+            <zone ulx="655" uly="890" lrx="1297" lry="995" rendition="Line" xml:id="LL1.19_line_1f_01"/>
+            <zone ulx="940" uly="1115" lrx="2524" lry="1301" rendition="Line" xml:id="LL1.19_line_1f_02"/>
+            <zone ulx="873" uly="1256" lrx="2515" lry="1411" rendition="Line" xml:id="LL1.19_line_1f_03"/>
+            <zone ulx="796" uly="1417" lrx="2463" lry="1624" rendition="Line" xml:id="LL1.19_line_1f_04"/>
+            <zone ulx="780" uly="1604" lrx="2322" lry="1738" rendition="Line" xml:id="LL1.19_line_1f_05"/>
+            <zone ulx="762" uly="1742" lrx="1927" lry="1853" rendition="Line" xml:id="LL1.19_line_1f_06"/>
+            <zone ulx="736" uly="1916" lrx="2487" lry="2053" rendition="Line" xml:id="LL1.19_line_1f_07"/>
+            <zone ulx="889" uly="2053" lrx="2557" lry="2186" rendition="Line" xml:id="LL1.19_line_1f_08"/>
+            <zone ulx="741" uly="2179" lrx="2442" lry="2317" rendition="Line" xml:id="LL1.19_line_1f_09"/>
+            <zone ulx="715" uly="2335" lrx="2404" lry="2491" rendition="Line" xml:id="LL1.19_line_1f_10"/>
+            <zone ulx="721" uly="2498" lrx="2431" lry="2675" rendition="Line" xml:id="LL1.19_line_1f_11"/>
+            <zone ulx="718" uly="2683" lrx="2488" lry="2812" rendition="Line" xml:id="LL1.19_line_1f_12"/>
+            <zone ulx="700" uly="2843" lrx="2524" lry="2972" rendition="Line" xml:id="LL1.19_line_1f_13"/>
+            <zone ulx="682" uly="2977" lrx="2266" lry="3146" rendition="Line" xml:id="LL1.19_line_1f_14"/>
+            <zone ulx="870" uly="3146" lrx="2548" lry="3311" rendition="Line" xml:id="LL1.19_line_1f_15"/>
+            <zone ulx="637" uly="3295" lrx="2448" lry="3428" rendition="Line" xml:id="LL1.19_line_1f_16"/>
+            <zone ulx="669" uly="3427" lrx="1657" lry="3505" rendition="Line" xml:id="LL1.19_line_1f_17"/>
+            <zone ulx="1833" uly="3421" lrx="2337" lry="3544" rendition="Line" xml:id="LL1.19_line_1f_18"/>
+            
+            <zone ulx="934" uly="2335" lrx="1299" lry="2692" rendition="HotSpot" xml:id="LL1.19_hotspot_1f_01"/> <!--timbro-->
+            <zone ulx="2164" uly="1924" lrx="2571" lry="2222" rendition="HotSpot" xml:id="LL1.19_hotspot_1f_02"/> <!--ceralacca-->
+        </surface>
+    </facsimile>
+
+    <text>
+
+        <body>
+            <div type="lettera">
+            <lb n="1" facs="#LL1.19_line_1f_01"/>
+                <p>testo di prova</p>
+            </div>
+        </body>
+
+        <back>
+
+        </back>
+    </text>
+</TEI>
