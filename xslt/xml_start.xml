@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="xsl" href="conversion.xsl"?>
+
+<!--
+    Studente: Matteo Rosana
+    Matricola: 530398
+    Corso: codifica di testi 19-20
+    Filename: xml_start.xml
+    Data: 22-05-2020
+-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prima prova di trasformazione da XML a HTML usando xlstproc</title>
+                <respStmt>
+                    <resp>Matteo Rosana</resp>
+                    <name></name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher></publisher>
+                <date></date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author></author>
+                    <publisher></publisher>
+                    <date></date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+
+        <body>
+            <p>Prova di funzionamento</p>
+        </body>
+
+        <back>
+
+        </back>
+    </text>
+</TEI>
