@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="conversion.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vincenzo Bellini a Vincenzo Ferlito, in Parigi, 4 febbraio 1835</title>
+                <author ref="#VB">Vincenzo Bellini</author>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="GS">Graziella Seminara</name>
+                </respStmt>
+                <respStmt>    
+                    <resp>Encoding by</resp>
+                	<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="EC">Erica Capizzi</name>
+					<name xml:id="DS">Daria Spampinato</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition
+                    <date when="2020-06">June 2020</date>
+                </edition>
+                <respStmt>
+                    <resp>Encoding letter</resp>
+                    <name xml:id="MR">Matteo Rosana</name>
+                    <note>Progetto per l'esame di Codifica di testi, C.d.s. Informatica Umanistica, <orgName xml:id="unipi">Università di <placeName>Pisa</placeName></orgName></note>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fondazione Bellini</publisher>
+                <availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl source="#Seminara2017" resp="#GS" ana="377">
+                    <citedRange unit="page" from="459" to="460">459-460</citedRange>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Catania</settlement>
+                        <repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+                        <idno type="inventory">LL1.19</idno>
+                        <altIdentifier>
+                            <idno type="collocation">in esposizione: Casa natale, sala B, vetrina 5, ripiano 1, I</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+                            <title type="uniform" xml:lang="it">
+                                <persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#VF">Vincenzo Ferlito</persName>, in <placeName ref="#Paris">Parigi</placeName>, <date when="1835-02-04" cert="high" resp="#GS">4 febbraio 1835</date>
+                            </title>
+                            <textLang mainLang="it">Italiano di inzio Ottocento</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta sottile.</material>
+                                    <stamp>Sul retro del folio, nella parte sinistra-centrale, si ipotizza la prensenza di un timbro e sul margine destro si ipotizza la presenza di un frammento di sigillo di ceralacca rossa. Tracce di ceralacca rossa anche nella parte frontale del folio negli angoli sulla parte destra.</stamp>
+                                    <p>Lettera in discrete condizioni fisiche, composta da un solo folio con testo nel fronte. Carta sottile senza filigrana, colore beige, inchiostro nero.</p>
+                                    <p>Il folio è un restauro, evidente l'incollatura della lettera su un secondo folio usato come supporto del restauro. A causa di questa operazione, il retro della lettera non è analizzabile con un alto grado di affidabilità. Evidente scrittura di una seconda mano sul folio usato come supporto.</p>
+                                    <p>La lettera presenta diversi strappi, la maggior parte concetrati sul margine sinistro e alcuni più lievi sul margine destro.</p>
+                                </support>
+                                <extent>
+                                    <measure type="folio">1</measure>
+                                    <dimensions unit="mm">
+                                        <height>263</height>
+                                        <width>203</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>La lettera presenta segni di piegature asimmetriche che la suddividono in sedici sezioni</foliation>
+                                <condition>La lettera presenta macchie brunite di umidità e tarli. Alone nero presente su gran parte del folio. Sono presenti diversi fori e strappi.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                       <handDesc hands="2">
+                            <handNote>
+                                <p>Scrittura a mano liberta leggibile.</p>
+                            </handNote>
+                            <handNote xml:id="h1">
+                                <p>Annotazione probabilmente dovuta ad un catalogatore.</p>
+                            </handNote>
+                        </handDesc>
+                        <sealDesc>
+                            <seal type="wax">
+                                <p>Nel retro della lettera, sul margine destro, si ipotizza la presenza di un frammento di sigillo di ceralacca rossa.</p>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                	<additional>
+						<adminInfo>
+							<note>
+								All'interno del carteggio belliniano (LL), la segnatura LL1.19 identifica la diciannovesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+							</note>
+						</adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Per identificare uno strappo del folio viene utilizzato come valore dell'attributo <att>agent</att> il valore <val>tear</val></p>
+            <p>Per codificare una parola che è stata parzialmente coperta da una porzione del foglio viene utilizzato come valore dell'attributo <att>reason</att> il valore <val>covered</val></p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+                    <placeName ref="#Paris" type="writing">Parigi</placeName>
+                    <date when="1835-02-04" cert="high" resp="#GS">4 febbraio 1835</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#VF">Vincenzo Ferlito</persName>
+                    <date cert="unknown" resp="#GS">unknown</date>
+                </correspAction>
+                <correspContext>
+                    <p>non è presente un contesto di riferimento</p>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="http://thes.bncf.firenze.sbn.it">
+                    <term resp="#GS">lettera</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it">italiano di inizio Ottocento</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+
+    <facsimile>
+        <surface n="1" xml:id="LL1.19_folio_1f_sf"> <!--folio supporto per il restauro-->
+            <graphic url="LL1.19_0001.jpg" width="2893px" height="3852px" n="01"/>
+            <zone ulx="138" uly="21" lrx="685" lry="86" rendition="HotSpot" xml:id="LL1.19_hotspot_1f_01"/>  <!-- seconda mano del catalogatore-->
+            <zone ulx="186" uly="239" lrx="755" lry="1035">
+                <surface n="2" xml:id="LL1.19_folio_1f" type="letter" attachment="glue" flipping="false">
+                    <zone ulx="194" uly="252" lrx="381" lry="283" rendition="Line" xml:id="LL1.19_line_1f_01" />
+                    <zone ulx="280" uly="318" lrx="740" lry="371" rendition="Line" xml:id="LL1.19_line_1f_02" />
+                    <zone ulx="250" uly="363" lrx="726" lry="404" rendition="Line" xml:id="LL1.19_line_1f_03" />
+                    <zone ulx="234" uly="407" lrx="719" lry="463" rendition="Line" xml:id="LL1.19_line_1f_04" />
+                    <zone ulx="232" uly="464" lrx="680" lry="507" rendition="Line" xml:id="LL1.19_line_1f_05" />
+                    <zone ulx="221" uly="503" lrx="564" lry="533" rendition="Line" xml:id="LL1.19_line_1f_06" />
+                    <zone ulx="217" uly="553" lrx="651" lry="581" rendition="Line" xml:id="LL1.19_line_1f_07" />
+                    <zone ulx="259" uly="590" lrx="754" lry="628" rendition="Line" xml:id="LL1.19_line_1f_08" />
+                    <zone ulx="215" uly="628" lrx="717" lry="673" rendition="Line" xml:id="LL1.19_line_1f_09" />
+                    <zone ulx="204" uly="670" lrx="704" lry="727" rendition="Line" xml:id="LL1.19_line_1f_10" />
+                    <zone ulx="227" uly="729" lrx="712" lry="765" rendition="Line" xml:id="LL1.19_line_1f_11" />
+                    <zone ulx="214" uly="774" lrx="734" lry="813" rendition="Line" xml:id="LL1.19_line_1f_12" />
+                    <zone ulx="204" uly="824" lrx="745" lry="863" rendition="Line" xml:id="LL1.19_line_1f_13" />
+                    <zone ulx="200" uly="866" lrx="662" lry="911" rendition="Line" xml:id="LL1.19_line_1f_14" />
+                    <zone ulx="253" uly="913" lrx="750" lry="957" rendition="Line" xml:id="LL1.19_line_1f_15" />
+                    <zone ulx="188" uly="958" lrx="723" lry="993" rendition="Line" xml:id="LL1.19_line_1f_16" />
+                    <zone ulx="197" uly="996" lrx="681" lry="1016" rendition="Line" xml:id="LL1.19_line_1f_17" />
+                    <zone ulx="595" uly="1015" lrx="683" lry="1031" rendition="Line" xml:id="LL1.19_line_1f_18" />
+                </surface>
+            </zone>
+        </surface>
+    </facsimile>
+
+
+    <text type="letter" xml:id="LL1.19" subtype="manuscript" n="LL1.19">
+        <front>
+            <div type="envelope">
+                <ab xml:id="LL1.19_envelope" copyOf="#LL1.19_retro">
+                    <stamp type="postmark">
+                        <mentioned>
+                            <placeName>unknown</placeName>
+                            <date>unknown</date>
+                        </mentioned>
+                    </stamp>
+                </ab>
+                <certainty target="#LL1_19_envelope" locus="value" resp="#MR" cert="low">
+                    <desc>Sul retro della lettera è presente un timbro ma non è possibile estrapolare altre informazioni poichè non è possibile analizzare il retro della lettera a causa dell'incollatura della stessa su un folio di supporto.</desc>
+                </certainty>
+            </div>
+        </front>
+
+        <body xml:lang="it">
+            <div type="fronte">
+                <div type="paratext">
+                    <ab type="paratext" subtype="addition" hand="#h1" xml:id="LL1.19_hs_1f_01" facs="#LL1.19_hotspot_1f_01">
+                        <damage agent="ink" extent="1" unit="chars">L</damage>ettera  autografa<gap reason="illegible" agent ="hole" unit="chars" extent="2"/> <supplied reason="lost" resp="#MR" cert="medium">da</supplied><unclear reason="hole" extent="1" unit="chars" resp="#MR" cert="high">l</unclear> <damage agent="tear" extent="6" unit="chars"><unclear reason="illegible" extent="4" unit="chars" resp="#MR" cert="low">Gran</unclear> Ma</damage>estro <persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+                    </ab>
+                </div>
+
+                <div type="letter-body">
+                <pb n="1" xml:id="LL1.19_fol_1f" facs="#LL1.19_folio_1f"/>
+                    <opener>
+                        <salute>
+                            <s type="sentence" n="s_01">
+                                <lb n="1" xml:id="LL1.19_lb_1f_01" facs="#LL1.19_line_1f_01"/>
+                                <damage agent="smoke"><hi rend="align(left)">Mio caro <rs type="person" ref="#VF"><choice><sic>z</sic><corr resp="#MR" cert="high">Z</corr></choice>io</rs></hi></damage>
+                            </s>
+                        </salute>
+                    </opener>
+                    <lb n="2" xml:id="LL1.19_lb_1f_02" facs="#LL1.19_line_1f_02"/>
+                    <ab type="parag" rend="first_line_indented" n="ab_01">
+                        <s type="sentence" n="s_02">
+                            <damage agent="smoke" group="1">Due parole sole per ora, per dirvi che
+                            <lb n="3" xml:id="LL1.19_lb_1f_03"  facs="#LL1.19_line_1f_03"/>
+                            <choice><abbr type="title" cert="high" resp="#MR">S<am>.</am> M<am>.</am></abbr><expan resp="#MR" cert="high" source="http://www.treccani.it/vocabolario/s-m">S<ex>ua</ex> M<ex>aestà</ex></expan></choice> il <rs type="person" ref="#LFBO" resp="#MR" cert="high"><roleName type="military" resp="#MR" cert="high">Rè</roleName> dei Francesi</rs> mi ha crea<unclear agent="hole" extent="1" unit="chars" resp="#GS" cert="high">t</unclear><supplied reason="hole" resp="#GS" cert="high">o</supplied>
+                            <lb n="4" xml:id="LL1.19_lb_1f_04"  facs="#LL1.19_line_1f_04"/>
+                            <roleName type="military" resp="#MR" cert="high">Cavaliere</roleName> del <choice><abbr type="suspension" cert="high" resp="#MR">R<am>.</am></abbr><expan resp="#MR" cert="high" source="http://www.treccani.it/vocabolario/reale1/">r<ex>eale</ex></expan></choice> Ordine <hi rend="underline">della <orgName type="military" ref="#Legion_onore"  resp="#MR" cert="high">Legion d’onore</orgName></hi>
+                            <lb n="5" xml:id="LL1.19_lb_1f_05"  facs="#LL1.19_line_1f_05"/>
+                            in data <date when="01-31">31: Gennajo</date> <pc force="strong" unit="sentence" pre="true" resp="#MR" cert="medium">–</pc></damage>
+                        </s>
+                        <s type="sentence" n="s_03">
+                            <damage agent="smoke" group="1">Il mio contento
+                            <lb n="6" xml:id="LL1.19_lb_1f_06"  facs="#LL1.19_line_1f_06"/>
+                            è all’estremo, e tutti i miei
+                            <lb n="7" xml:id="LL1.19_lb_1f_07" facs="#LL1.19_line_1f_07"/>
+                            amici e parenti devono godere di tale
+                            <lb n="8" xml:id="LL1.19_lb_1f_08"  facs="#LL1.19_line_1f_08"/>
+                            <supplied reason="lost" resp="#GS" cert="high">mio</supplied> trionfo <pc force="strong" unit="sentence" pre="true" resp="#MR" cert="medium">–</pc> </damage>
+                        </s> 
+                        <s type="sentence" n="s_04">
+                            <damage agent="smoke" group="1">Non si dà esempio <supplied reason="hole" resp="#GS" cert="high">neg</supplied>li annali
+                            <lb n="9" xml:id="LL1.19_lb_1f_09"  facs="#LL1.19_line_1f_09"/>
+                            teatrali, né d’un’incontro sì <unclear reason="covered" extent="2" unit="chars" resp="#GS" cert="high">st</unclear>repi<unclear reason="illegible" extent="2" unit="chars" resp="#GS" cert="high">to</unclear>so, né
+                            <lb n="10" xml:id="LL1.19_lb_1f_10"  facs="#LL1.19_line_1f_10"/>
+                            <unclear agent="hole" extent="1" unit="chars" resp="#GS" cert="high">d</unclear><supplied reason="illegible" resp="#GS" cert="high">'</supplied>una distinzione sì marcata, per un’ <term subtype = "music-term" ref="#opera">opera</term>
+                            <lb n="11" xml:id="LL1.19_lb_1f_11"  facs="#LL1.19_line_1f_11"/>
+                            </damage><supplied reason="lost" resp="#GS" cert="high">ita</supplied><damage agent="smoke" group="1">liana <pc force="strong" unit="sentence" pre="true" resp="#MR" cert="medium">–</pc> </damage> 
+                        </s>
+                        <s type="sentence" n="s_05">
+                            <damage agent="smoke" group="1">In altra mia mi diffo<unclear reason="damage" agent="water" extent="7" unit="chars" resp="#GS" cert="high">nderò di</unclear>
+                            <lb n="12" xml:id="LL1.19_lb_1f_12"  facs="#LL1.19_line_1f_12"/>
+                            </damage><unclear reason="faded-ink" agent="ink" extent="1" unit="chars" resp="#GS" cert="high">p</unclear><supplied reason="lost" resp="#GS" cert="high">iù</supplied>; pe<damage agent="smoke" group="1">r ora sappia che <hi rend="underline">i <rs type="work" ref="#Puritani">Puritani</rs></hi> <unclear reason="damage" agent="water" extent="2" unit="chars" resp="#GS" cert="high">di</unclear> sera <unclear reason="damage" agent="water" extent="2" unit="chars" resp="#GS" cert="high">in</unclear></damage>
+                            <lb n="13" xml:id="LL1.19_lb_1f_13"  facs="#LL1.19_line_1f_13"/>
+                            se<supplied reason="illegible" resp="#GS" cert="high">ra</supplied> più <damage agent="smoke" group="1">fanno fanatismo, <unclear reason="faded-ink" agent="ink blot" extent="1" unit="chars" resp="#GS" cert="high">e</unclear> che <unclear reason="faded-ink" agent="ink blot" extent="2" unit="chars" resp="#GS" cert="high">in</unclear> tutto <placeName ref="#Paris">Parigi</placeName>
+                            <lb n="14" xml:id="LL1.19_lb_1f_14"  facs="#LL1.19_line_1f_14"/>
+                            </damage>non <unclear reason="background_noise" extent="2" unit="chars" resp="#GS" cert="high">si</unclear><damage agent="smoke" group="1"> parla d’a<retrace cause="unclear" resp="#MR" cert="high">lt</retrace>ro <pc force="strong" unit="sentence" pre="true" resp="#MR" cert="medium">–</pc> </damage>
+                        </s>
+                        <s type="sentence" n="s_06">
+                            <damage agent="smoke" group="1"><choice><sic>Addio</sic><corr resp="#MR" cert="high">addio</corr></choice> mio caro <rs type="person" ref="#VF">Zio</rs></damage>
+                        </s>
+                        <s type="sentence" n="s_07">
+                            <lb n="15" xml:id="LL1.19_lb_1f_15"  facs="#LL1.19_line_1f_15"/>
+                            <damage agent="smoke" group="1">Tan<unclear reason="faded-ink" agent="ink" extent="2" unit="chars" resp="#GS" cert="high">te</unclear> cose a <rs type="person" ref="#RB">papà</rs> <rs type="person" ref="#AF">mamà</rs> e a tutti i <unclear reason="illegible" extent="3" unit="chars" resp="#GS" cert="high">mie</unclear>i.</damage>
+                        </s>
+                    </ab>
+                    <closer>
+                        <salute>
+                            <s type="sentence" n="s_08">
+                            <lb n="16" xml:id="LL1.19_lb_1f_16"  facs="#LL1.19_line_1f_16"/>
+                            <unclear reason="ink blot" agent="ink" extent="4" unit="chars" resp="#GS" cert="high">Date</unclear><damage agent="smoke" group="1"> un pranzo e beve<unclear agent="hole" extent="1" unit="chars" resp="#GS" cert="high">t</unclear>e alla mia salute, che io vi
+                            <lb n="17" xml:id="LL1.19_lb_1f_17"  facs="#LL1.19_line_1f_17"/>
+                            risponderò <unclear agent="tear" extent="1" unit="chars" resp="#GS" cert="high">d</unclear>a qui <pc force="strong" unit="sentence" pre="true" resp="#MR" cert="medium">–</pc> </damage>
+                            </s>
+                            <s type="sentence" n="s_09">
+                                <damage agent="smoke" group="1"><choice><sic>Addio</sic><corr resp="#MR" cert="high">addio</corr></choice> <hi rend="align(right)">Il v<supplied reason="omitted-in-original" resp="#GS" cert="high">ost</supplied>ro <unclear reason="ink blot" extent="7" unit="chars" resp="#GS" cert="high"><choice><abbr type ="contraction" resp="#MR" cert="high">affssmo</abbr><expan resp="#MR" cert="high" source="http://www.treccani.it/vocabolario/affezionato/">aff<ex>ezionati</ex>ss<ex>i</ex>mo</expan></choice></unclear></hi></damage>
+                            </s>
+                        </salute>
+                        <signed>
+                            <s type="sentence" n="s_09">
+                                <lb n="18" xml:id="LL1.19_lb_1f_18"  facs="#LL1.19_line_1f_18"/>
+                                <damage agent="smoke"><hi rend="align(right)"><persName ref="#VB" role="composer">Vincenzo</persName></hi></damage>
+                            </s> 
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+
+            <div type="retro" xml:id="LL1_19_r">
+            <pb n="2"/>
+                <ab xml:id="LL1.19_retro">
+                    <stamp type="postmark">
+                        <mentioned>
+                            <placeName>unknown</placeName>
+                            <date>unknown</date>
+                        </mentioned>
+                    </stamp>
+                </ab>
+                <certainty target="#LL1_19_r" locus="value" resp="#MR" cert="low">
+                    <desc>Sul retro della lettera è presente un timbro ma non è possibile estrapolare altre informazioni poichè non è possibile analizzare il retro della lettera a causa dell'incollatura della stessa su un folio di supporto</desc>
+                </certainty>
+            </div>
+
+
+        </body>
+
+        <back>
+            <div type="bibliography">
+                <listBibl xml:id="LL1_19_bibliography">
+                    <head>Bibliography of the letter LL1.19</head>
+                    <bibl xml:id="LL1_19_Libertini">
+                        <ref target="#Libertini1935">
+                            <bibl>
+                                <author>Libertini</author>
+                                <date when="1935">1935</date>
+                                <citedRange unit="page" from="7" to="8">7-8</citedRange>
+                            </bibl>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="LL1_19_Cambi">
+						<ref target="#Cambi1943">
+                            <bibl>
+							    <author>Cambi</author>
+							    <date when="1943">1943</date>
+							    <citedRange unit="page" from="513" to="513">513</citedRange>
+                            </bibl>
+						</ref>
+					</bibl>
+                    <bibl xml:id="LL1_19_Neri">
+						<ref target="#Neri2005">
+                            <bibl>
+                                <author>Neri</author>
+                                <date when="2005">2005</date>
+                                <citedRange unit="page" from="370" to="372">370-372</citedRange>
+                            </bibl>
+						</ref>
+					</bibl>
+                    <bibl xml:id="LL1_19_Seminara">
+                        <ref target="#Seminara2017">
+                            <bibl>
+                                <author>Seminara</author>
+                                <date when="2017">2017</date>
+                                <citedRange unit="page" from="459" to="460">459-460</citedRange>
+                            </bibl>
+                        </ref>
+					</bibl>
+                </listBibl>
+            </div>
+
+            <div type="ref_list">
+                <listPerson>
+
+                    <person xml:id="LFBO" sameAs="https://viaf.org/viaf/55392984/#Louis_Philippe,_King_of_the_French,_1773-1850" resp="#MR"> 
+			            <persName> 
+                            <ref target="https://it.wikipedia.org/wiki/Luigi_Filippo_di_Francia http://www.treccani.it/enciclopedia/luigi-filippo-re-dei-francesi"/>
+                            <forename>Luigi</forename>
+                            <surname>Filippo</surname>
+                            <surname>di Borbone-Orléans</surname>
+                            <addName type="royal_name">Luigi Filippo I</addName>
+                            <roleName type="military">Re</roleName>
+			            </persName>
+			            <sex>M</sex>
+			            <birth><date when="1773-10-06" cert="high">6 ottobre 1773</date>
+				            <placeName ref="#Paris">
+					            <settlement type="municipality">Parigi</settlement>
+					            <settlement type="provincia" key="PAR" ref="#Paris">Parigi</settlement>
+					            <country key="FR">Francia</country>
+				            </placeName>
+                        </birth>
+			            <death><date when="1850-09-26" cert="high">26 agosto 1850</date>
+				            <placeName>
+					            <settlement type="county">Surrey</settlement>
+					            <settlement type="disctrict">Elmbridge</settlement>
+					            <country key="UK">Regno Unito</country>
+				            </placeName>
+			            </death>
+			            <note source="#Seminara2017" resp="#GS" ana="377">
+                            <bibl>
+                                <citedRange unit="page" from="459" to="459">459</citedRange>
+                            </bibl>
+				            <p>
+					            Luigi Filippo di Borbone-Orléans, già duca d'Orléans (<placeName ref="#Paris">Parigi</placeName>, 6 ottobre 1773 – Claremont House, 26 agosto 1850), conosciuto durante la Rivoluzione come il cittadino Chartres oppure Égalité fils, fu re dei Francesi dal 1830 al 1848 con il nome di Luigi Filippo I.
+				            </p>
+			            </note> 
+		            </person>
+
+                    <person xml:id="RB" sameAs="http://viaf.org/viaf/6051130" resp="#MR"> 
+                        <persName role="composer"> 
+                            <ref target="http://data.rism.info/id/rismauthorities/pe20001181? https://catalogue.bnf.fr/ark:/12148/cb15115299w"/>
+                            <forename>Rosario</forename>
+                            <surname>Bellini</surname>
+                        </persName>
+                        <sex>M </sex>
+                        <birth><date when="1775-10-28" cert="high"> 28 ottobre 1775</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="provincia" key="CT" ref="#CT">Catania</settlement>
+                                <country key="ITA">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death><date when="1840-02-03" cert="medium">03 febbraio 1840</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="provincia" key="CT" ref="#CT">Catania</settlement>
+                                <country key="ITA">Italia</country>
+                            </placeName>
+                        </death>
+                        <note source="#Seminara2017" resp="#GS" ana="377">
+                            <bibl>
+                                <citedRange unit="page" from="459" to="459">459</citedRange>
+                            </bibl>
+                            <p>
+                                Rosario Bellini (<placeName ref="#CT">Catania</placeName>, 1776-1840). Padre di <persName ref="#VB" role="composer">Vincenzo</persName>, aveva sposato <persName ref="#AF">Agata Ferlito</persName> il 17 gennaio 1801; con lei si stabilì in un modesto appartamento di tre stanze ricavato dalle <hi rend="italic">dépendances</hi> del settecentesco palazzo Gravina Cruylas, situato in Largo San Francesco a <placeName ref="#CT">Catania</placeName>. I due coniugi ebbero sette figli: <persName ref="#VB" role="composer">Vincenzo</persName>, il primogenito, nel 1801, Carmelo nel 1803, Francesco nel 1804, Michela nel 1806, Giuseppa nel 1807, Mario nel 1810, Maria nel 1813. Come il padre Vincenzo Tobia e come i fratelli Carmelo e Mario, anche Rosario Bellini operò a <placeName ref="#CT">Catania</placeName> come musicista e si dedicò prevalentemente al genere sacro.
+                            </p>
+                        </note> 
+                    </person>
+
+                    <person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
+         	            <persName role="composer">
+                            <ref target="http://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+                            <forename>Vincenzo</forename>
+                            <forename>Salvatore</forename>
+                            <forename>Carmelo</forename>
+                            <forename>Francesco </forename> 
+                            <surname>Bellini</surname>
+                            <addName type="alias">Il Cigno</addName>
+                            <roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
+                        </persName>
+                        <sex>M </sex>
+                        <birth><date when="1801-11-03">3 novembre 1801</date>
+                            <placeName ref="#CT">
+                                    <settlement type="municipality">Catania</settlement>
+                                    <settlement type="provincia" key="CT">Catania</settlement>
+                                    <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death><date when="1835-09-23">23 settembre 1835</date>
+                            <placeName ref="#Put">
+                                    <settlement type="municipality">Puteaux</settlement>
+                                    <settlement type="department" key="Paris">Paris</settlement>
+                                    <country key="FR">France</country>
+                            </placeName>
+                        </death>
+                        <note>
+                        </note>          		
+                    </person>
+
+                    <person xml:id="VF"> 
+          	            <persName> 
+                            <forename>Vincenzo</forename>
+                            <surname>Ferlito</surname>
+                        </persName>
+                        <sex>M </sex>
+                        <birth><date when="1780" cert="medium">1780</date>
+                                <placeName ref="#CT">
+                                        <settlement type="municipality">Catania</settlement>
+                                        <settlement type="provincia" key="CT">Catania</settlement>
+                                        <country key="IT">Italia</country>
+                                </placeName>
+                        </birth>
+                        <death><date when="1850">1850</date>
+                            <placeName ref="#London">
+                                <settlement type="municipality">London</settlement>
+                                <settlement type="country">Greater London</settlement>
+                                <country key="GB">Great Britain</country>
+                            </placeName>
+                        </death>
+                        <note source="#Seminara2017" resp="#GS" ana="38">
+                            <bibl>
+                                <citedRange unit="page" from="77" to="77">77</citedRange>
+                            </bibl>
+                            <p>
+                                Vincenzo Ferlito (Catania, 1780 ca. - 1850) era zio materno di <persName ref="#VB" role="composer">Bellini</persName>; aveva sposato <persName ref="#RM">Rosaria Maugeri</persName>, indicata dal musicista come “zia Sara”. Bellini si rivolgeva a lui per far pervenire proprie notizie alla famiglia.
+                            </p>
+                        </note> 
+                    </person>
+
+                    <person xml:id="AF"> 
+                        <persName> 
+                            <forename>Agata</forename>
+                            <surname>Ferlito</surname>
+                        </persName>
+                        <sex>F </sex>
+                        <birth><date when="1778">1778</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="provincia" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                            </birth>
+                            <death><date when="1842">1842</date>
+                                <placeName ref="#CT">
+                                    <settlement type="municipality">Catania</settlement>
+                                    <settlement type="provincia" key="CT">Catania</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                            <note resp="#GS">
+                                <p>Agata Ferlito (Catania, 1778 -1842) apparteneva a una famiglia relativamente agiata poiché il padre Carmelo era funzionario presso l’amministrazione catanese. Sposò <persName ref="#RB">Rosario Bellini</persName> il 17 gennaio 1801 e con lui si stabilì in un modesto appartamento di tre stanze ricavato dalle dépendances del settecentesco palazzo Gravina Cruylas, situato in Largo San Francesco a <placeName ref="#CT"> Catania </placeName>. I due coniugi ebbero sette figli: <persName ref="#VB">Vincenzo</persName>, il primogenito, nel 1801, Carmelo nel 1803, Francesco nel 1804, Michela nel 1806, Giuseppa nel 1807, Mario nel 1810, Maria nel 1813.
+                                </p>
+                            </note> 
+                    </person>
+
+                    <person xml:id="CP" sameAs="http://viaf.org/viaf/79049762"> 
+                        <persName role="librettist"> 
+                            <ref target="http://data.rism.info/id/rismauthorities/pe30101038 http://www.treccani.it/enciclopedia/carlo-pepoli_(Dizionario-Biografico)"/>
+                            <forename>Carlo</forename>
+                            <surname>Pepoli</surname>
+                            <roleName>conte</roleName>
+                        </persName>
+                        <sex>M </sex>
+                        <birth><date when="1796-07-22">22 luglio 1796</date>
+                            <placeName>
+                                <settlement type="municipality">Bologna</settlement>
+                                <settlement type="provincia" key="BO">Bologna</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                            </birth>
+                        <death><date when="1881-12-07">7 dicembre 1881</date>
+                            <placeName>
+                                <settlement type="municipality">Bologna</settlement>
+                                <settlement type="provincia" key="BO">Bologna</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <note source="#Seminara2017" resp="#GS" ana="551">
+                        <bibl>
+                            <citedRange unit="page" from="331" to="331">331</citedRange>
+                        </bibl>
+                            <p>Carlo Pepoli (Bologna, 1796 - 1881) aveva predisposto il libretto dei <rs type="work" ref="#Puritani">Puritani</rs>. Amico di <persName>Giacomo Leopardi</persName>, aveva partecipato ai moti carbonari del 1831 e - dopo esser stato detenuto in carcere a Venezia - nel 1833 si era recato in esilio a Parigi; in quello stesso anno aveva pubblicato una raccolta di scritti in due volumi (Prose. Volume primo e Versi. Volume primo) presso l'editore Vignier di Ginevra. Il poeta bolognese conobbe <persName ref="#VB" role="composer">Bellini</persName> nel salotto di <persName ref="#CTB" role="writer">Cristina Trivulzio di Belgiojoso</persName>, nel quale si fece apprezzare anche come autore di testi per musica: i suoi versi furono intonati da <persName ref="#MC" role="composer">Michele Costa</persName>, <persName ref="#VG">Vincenzo Gabussi</persName>, <persName ref="#GR">Rossini</persName> e <persName ref="#NV">Vaccaj</persName>, nonche' dallo stesso <persName ref="#VB" role="composer">Bellini</persName>.</p>
+                        </note> 
+                    </person>
+
+                    <listRelation>
+              	        <relation name="mother" active="#AF" passive="#VB"/>
+              		    <relation name="sibling" mutual="#AF #VF"/>
+              		    <relation name="spouse" mutual="#AF #RB"/>
+					    <relation name="father" active="#RB" passive="#VB"/>
+                        <relation name="maternal uncle" resp="#MR" active="#VF" passive="#VB"/>
+                     </listRelation>
+                </listPerson>
+                
+                <listBibl>
+                    <bibl xml:id="Libertini1935" type="print">
+                        <author xml:id="GL">
+                        	<forename>Guido</forename>
+                        	<surname>Libertini</surname>
+                        </author>
+                        <title level="a">Ricerche tra gli autografi del Museo Belliniano</title>
+                        <title level="j">Vincenzo Bellini. Numero commemorativo della Rivista del Comune di Catania</title>
+                     	<biblScope unit="volume">XIII</biblScope>
+  						<biblScope unit="page" from="1" to="8">1-8</biblScope>
+                        <pubPlace>Catania</pubPlace>
+                        <date when="1935">1935</date>
+                    </bibl>
+
+                    <bibl xml:id="Cambi1943" type="print">
+                        <author xml:id="LC"> 
+                        	<forename>Luisa</forename>
+                        	<surname>Cambi</surname> 
+                        </author>
+                        <title level="m">Bellini. Epistolario</title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Mondadori</publisher>
+                        <date when="1943">1943</date>
+                    </bibl>
+
+                    <bibl xml:id="Neri2005" type="print">
+                        <author xml:id="CN">
+                        	<forename>Carmelo</forename>
+                        	<surname>Neri</surname>
+                        </author>
+                        <title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+                        <pubPlace>Catania</pubPlace>
+                        <publisher>Agorà</publisher>
+                        <date when="2005">2005</date>
+                     </bibl>
+
+                    <bibl xml:id="Seminara2017" type="print">
+                        <editor ref="#GS">
+                        	<forename>Graziella</forename>
+                        	<surname>Seminara</surname>
+                        </editor>
+                        <title level="m">Vincenzo Bellini. Carteggi</title>
+                        <title level="s">Historiae Musicae Cultores</title>
+                     	<biblScope unit="volume">CXXXI</biblScope>
+                        <biblScope unit="page">pp. vi+622</biblScope>
+  					    <pubPlace>Firenze</pubPlace>
+                        <publisher>Leo S. Olschki Editore</publisher>
+                        <date when="2017">2017</date>                       
+                    </bibl>
+                    <bibl xml:id="DellaSeta2010" type="print">
+                        <editor xml:id="FDS">
+                        	<forename>Fabrizio</forename>
+                        	<surname>Della Seta</surname>
+                        </editor>
+                        <title level="m">Le parole del teatro musicale</title>
+                        <pubPlace>Roma</pubPlace>
+                        <publisher>Carocci</publisher>
+                        <date when="2010">2010</date>
+                    </bibl>
+
+                </listBibl>
+
+                <listPlace>
+                    <place xml:id="Paris">
+                        <placeName ref="http://www.geonames.org/2988507 http://www.treccani.it/enciclopedia/parigi/">Paris</placeName>
+                        <country key="FR">France</country>
+                        <note></note>
+                    </place>
+                        
+                    <place xml:id="CT">
+                        <placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+                        <country key="IT">Italia</country>
+                        <note></note>
+                    </place>
+
+                    <place xml:id="Put">
+                        <placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+                        <district type="arrondissement">Nanterre</district>
+                        <settlement type="city">Paris</settlement>
+                        <country key="FR">France</country>
+                        <note source="#Seminara2017" resp="#GS" ana="580">
+                            <bibl>
+                                <citedRange unit="page" from="346" to="346">346</citedRange>
+                            </bibl>
+                            <p>Puteaux era un sobborgo di <placeName ref="#Paris">Parigi</placeName>, immerso nel verde e situato sulla <foreign xml:lang="fr">rive gauche</foreign> della Senna. Qui Bellini si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di Solomon Levy (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a Milano. Levy, che negli anni 1834-35 si trattenne stabilmente a Parigi, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.
+                            </p>                        											
+                        </note>
+                    </place>
+
+                    <place xml:id="London">
+                        <placeName ref="http://www.geonames.org/2643743 http://www.treccani.it/enciclopedia/london/">London</placeName>
+                        <country key="GB">Great Britain</country>
+                        <note></note>
+                    </place>
+
+                    <listRelation>
+              		    <relation name="near" mutual="#Put #NSS"/>
+      				</listRelation>
+                </listPlace>
+
+                <list type="terminology">
+                    <label>
+                        <term subtype="music-term" xml:lang="it" xml:id="opera" key="">Opera</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#opera" source="#DellaSeta2010">
+							(dal plurale del latino opus, nel senso di “manufatto”) Spettacolo teatrale in cui l’azione si manifesta principalmente attraverso la musica e l’espressione canora dei personaggi. L’opera è un genere complesso, fondato sulla cooperazione tra testo letterario (<term subtype="music-term" ref="#libretto">libretto</term>), allestimento scenico e musica, che ha comunque una funzione essenziale nel caratterizzare drammaticamente il lavoro (drammaturgia musicale). Le differenti possibilità di relazione che intercorrono tra musica, libretto e aspetti scenici rendono pressoché impossibile una definizione univoca di opera. A ciò si aggiungono le difficoltà causate dall’evoluzione compiuta in quattro secoli di storia, dalla presenza sotto una comune etichetta di generi tra loro estremamente lontani, dalle specificità nazionali (sotto il profilo sia drammaturgico sia organizzativo). L’opera nacque nell’Italia del primo Seicento (Firenze, Mantova, Roma) come spettacolo di corte con carattere prevalentemente celebrativo. Dalla fine degli anni trenta, con l’apertura a Venezia dei primi teatri pubblici a pagamento, si impose il modello dell’opera <term subtype="music-term" ref="#impresario">impresariale</term>, che produsse in Italia, con la rapida e diffusa circolazione di cantanti, compositori, scenografi, l’attività di una miriade di sale teatrali sparse sul territorio (dalle grandi capitali dotate di numerosi palcoscenici ai piccoli centri) e una produzione sterminata di nuovi lavori (nel XVIII secolo e nella prima metà del XIX secolo i compositori arrivavano a scrivere tre o quattro novità all’anno). Tale modello si diffuse ben presto in Europa, imponendo nel Settecento – nelle tre declinazioni dell’<term subtype="music-term" ref="#opera_seria">opera seria</term>, dell’<term subtype="music-term">opera buffa</term> e poi dell’<term subtype="music-term">opera semiseria</term> – il predominio italiano che perdura ancor oggi nei cartelloni dei teatri di tutto il mondo.<gap reason="editorial"/>
+						</gloss>
+                    </item>
+                </list>
+                
+                <div type="work">
+                    <bibl xml:id="Puritani">
+                 		<ref target="http://www.treccani.it/enciclopedia/i-puritani/"/>
+                        <title>I puritani</title>
+                        <persName role="composer" target="#VB" resp="#MR"> Vincenzo Bellini </persName>
+                        <persName role="librettist" target="#CP" resp="#MR">Carlo Pepoli </persName>
+                        <orgName type="theatre" ref="#Teatro_italiano">Théâtre de la comédie italienne</orgName>
+                        <placeName ref="#Paris">Paris</placeName>
+                        <date when="1835-01-24">24 gennaio 1835</date> 
+                        <note resp="#GS">
+                            Composti da <persName ref="#VB">Bellini</persName> su libretto di <persName ref="#CP">Carlo Pepoli </persName>, I puritani si ispiravano al dramma storico <hi rend="italic">Têtes rondes et Cavaliers</hi> di <persName>Jacques-Arsène Ancelot</persName> e <persName>Joseph-Xavier-Boniface Saintine</persName>, che era andato in scena al Théâtre du Vaudeville il <date when="1833-09-25">25 settembre 1833</date> e in quello stesso anno era stato pubblicato a <placeName ref="#Paris">Parigi</placeName> dall’editore <persName>Barba</persName>. L’<term subtype="music-term" ref="#opera">opera</term> fu rappresentata al Théâtre Italien di <placeName ref="#Paris">Parigi</placeName> il <date when="1835-01-24">24 gennaio 1835</date> e incontrò uno trionfale successo, grazie anche all’interpretazione del “quartetto” di cantanti <persName>Giulia Grisi</persName> (“soprano"), Giovanni Battista Rubini (“tenore"), Antonio Taburini (“baritono"), Luigi Lablache (“basso").
+                        </note>
+                        <note resp="#EC">
+                            Opera seria in tre atti. Il dramma storico <hi rend="italic">Têtes rondes et Cavaliers</hi> a sua volta era derivato dal romanzo Old mortality (<date when="1816">1816</date>) di Walter Scott che fu tradotto in Italia nel 1822 col titolo I puritani di Scozia. Essendo in rotta con il librettista Felice Romani, Bellini accettò il testo approntato dal conte Pepoli, distinto letterato ma che non aveva alcuna esperienza di teatro: l’ultima <term subtype="music-term" ref="#opera">opera</term> del Cigno fu composta pertanto nell’arco di ben nove mesi, un tempo decisamente ampio durante il quale musicista e librettista lavorarono fianco a fianco nella costruzione dell’impianto drammaturgico.
+                        </note>
+                    </bibl>
+                </div>
+
+                <listOrg>
+                    <org type="theatre" xml:id="Teatro_italiano">
+                        <orgName type="main" ref="https://it.wikipedia.org/wiki/Théâtre_de_la_comédie_italienne">Real teatro italiano</orgName>
+                        <orgName>Théâtre de la comédie italienne</orgName>
+                        <orgName>Théâtre Italien</orgName>
+                   	 	  <placeName ref="#Paris">Paris</placeName>
+                        <desc>
+                          
+                        </desc>
+                    </org>
+
+                    <org type="military" xml:id="Legion_onore" resp="#MR">
+                        <orgName type="main" ref="http://www.treccani.it/enciclopedia/legione-d-onore_%28Enciclopedia-Italiana%29/">Legion d'onore</orgName>
+                        <placeName ref="#Paris">Paris</placeName>
+                        <desc>
+                            Ordine cavalleresco istituito da <persName>Napoleone Bonaparte</persName>, <roleName type="politic">Primo Console</roleName>, per eliminare dalle istituzioni rivoluzionarie quel che vi era di troppo democratico e per rafforzare lo stato con la creazione di corpi intermedî che, liberi dai pregiudizî tradizionali della nobiltà, potessero però compiere nel paese una funzione analoga a quella che in tempi passati avevano compiuto i nobili.
+                        </desc>
+                    </org>
+
+                </listOrg>
+            </div>
+        </back>
+    </text>
+</TEI>
